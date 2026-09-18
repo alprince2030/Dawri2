@@ -1,0 +1,15 @@
+دوري — البناء السحابي من الهاتف/التابلت
+
+1) افتح GitHub من المتصفح وأنشئ مستودعًا جديدًا باسم dawri.
+2) ارفع محتويات مجلد Dawri_Cloud.
+3) تأكد أن الملف التالي موجود:
+   .github/workflows/build-apk.yml
+4) افتح Actions.
+5) اختر Build Dawri APK.
+6) اضغط Run workflow.
+7) انتظر انتهاء المهمة.
+8) افتح نتيجة المهمة ثم Artifacts.
+9) نزّل dawri-release-apk.
+10) فك الضغط وثبّت app-release.apk على جهاز Android.
+
+إذا أردت iPhone لاحقًا، يمكن إضافة workflow منفصل لبناء iOS، لكن نشر iOS يحتاج حساب Apple ومتطلبات توقيع Apple.
